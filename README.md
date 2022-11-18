@@ -38,7 +38,7 @@ I then went through and found the absolute highest value odds for each team insi
 the odds for each team and added them together to get the P(Event) all while keeping the bookmaker and team attached as if this information were not there then the
 results would be useless.
 
-I then had the information be displayed on an html page as I found it was easier to view and understand for the user.
+I then had the information be displayed on an html page as I found it was easier to view and understand for the user. I am still currently working on making it to where the html page calls the python function to make an updated API request and display the new information. There are still some bugs as sometimes the data the API returns is off. 
 ## Skills Utilized
 - Python
 - Pandas
@@ -47,4 +47,10 @@ I then had the information be displayed on an html page as I found it was easier
 - Statistics
 - Data Manipulation
 ## Screenshots
+This is the JSON object that I had to parse to find the relevant information.
+![2022-11-18 17_49_09-Window](https://user-images.githubusercontent.com/103780036/202821579-153eadf8-25f8-4a00-8164-544cfb83a3f8.png)
+
+This is the final HTML page displaying the Teams, Bookmaker, and Odds.
+![2022-11-18 17_48_30-Window](https://user-images.githubusercontent.com/103780036/202821591-d32e13ad-1fbb-4e12-8bf5-40b27c0f1d19.png)
+
 
